@@ -21,5 +21,9 @@ public class Estudiante{
 			return -1;
 		}
 	}
+
+	public static boolean isMayorDeEdad(int edad){
+		return edad >= 18;
+	}
 	
 }
