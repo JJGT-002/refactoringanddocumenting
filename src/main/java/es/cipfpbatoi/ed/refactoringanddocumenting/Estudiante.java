@@ -2,20 +2,20 @@ package es.cipfpbatoi.ed.refactoringanddocumenting;
 
 public class Estudiante{
 	
-	int e;
-	String n;
+	int edad;
+	String nombre;
 	
 	
 	public Estudiante(int e, String n) {
-		this.e = e;
-		this.n = n;
+		this.edad = e;
+		this.nombre = n;
 	}
 
 	public int comparaTe( Estudiante e) {
 		
-		if (this.e == e.e){
+		if (this.edad == e.edad){
 			return 0;
-		} else if (this.e > e.e) {
+		} else if (this.edad > e.edad) {
 			return 1;
 		} else {
 			return -1;
