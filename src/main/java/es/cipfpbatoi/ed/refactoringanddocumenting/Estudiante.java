@@ -2,6 +2,7 @@ package es.cipfpbatoi.ed.refactoringanddocumenting;
 
 public class Estudiante{
 	
+	private static final int MAJORIA_DE_EDAD = 18;
 	int edad;
 	String nombre;
 	
@@ -23,7 +24,7 @@ public class Estudiante{
 	}
 
 	public static boolean isMayorDeEdad(int edad){
-		return edad >= 18;
+		return edad >= MAJORIA_DE_EDAD;
 	}
 	
 }
